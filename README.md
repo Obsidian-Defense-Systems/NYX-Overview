@@ -1,10 +1,10 @@
 # NYX
 
-Modern cybersecurity operations no longer have an alert problem.
+Modern cybersecurity operations are no longer limited by detection capability.
 
-They have a decision problem.
+They are limited by the ability to rapidly interpret, prioritize, and act on overwhelming volumes of data.
 
-NYX aims to solve that. NYX is a consensus-driven operational decisioning platform designed to help organizations reduce operational overload, improve triage consistency, and accelerate defensible decision-making at scale.
+NYX is a consensus-driven operational decisioning platform designed to help organizations reduce operational overload, improve triage consistency, and accelerate defensible decision-making at scale.
 
 Built by Obsidian Defense Systems.
 
