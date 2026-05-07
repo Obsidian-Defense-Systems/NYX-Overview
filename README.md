@@ -88,5 +88,11 @@ Prototype / Pilot Validation
 
 ## Contact
 
-Obsidian Defense Systems  
-https://obsidiands.com
+Kyle Jackson
+
+Founder | Obsidian Defense Systems
+
+Email: kylejackson@obsidiands.com  
+LinkedIn: https://www.linkedin.com/in/kyle-jackson-574a64160
+ 
+
