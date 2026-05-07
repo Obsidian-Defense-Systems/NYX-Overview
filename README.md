@@ -40,6 +40,11 @@ This architecture is designed to preserve explainability, auditability, and huma
 
 ---
 
+## Platform Architecture
+
+![ODS Platform Architecture](images/ods-platform-architecture.png)
+
+
 ## Prototype Validation
 
 Operational prototype testing was conducted using real enterprise alert telemetry generated from production monitoring infrastructure.
