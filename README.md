@@ -25,6 +25,13 @@ NYX is a consensus-driven cybersecurity decision intelligence platform designed 
 - [NYX Public Overview](docs/NYX_Enterprise_Overview_v1.pdf)
 
 
+## Architecture Overview
+
+![NYX Architecture Overview](images/nyx_architecture_v1.png) 
+
+
+
+
 ---
 
 ## Core Philosophy
