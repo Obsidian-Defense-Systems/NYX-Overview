@@ -1,6 +1,10 @@
 # NYX
 
-Operational AI for Cybersecurity Decision Intelligence
+Modern cybersecurity operations do not have an alert problem.
+
+They have a decision problem.
+
+NYX is a consensus-driven operational decisioning platform designed to help organizations reduce operational overload, improve triage consistency, and accelerate defensible decision-making at scale.
 
 Built by Obsidian Defense Systems.
 
