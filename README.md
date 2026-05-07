@@ -1,103 +1,254 @@
 # NYX
 
-Consensus-driven operational AI for cybersecurity decision intelligence.
+Operational AI for Cybersecurity Decision Intelligence
+
+Built by Obsidian Defense Systems.
 
 ---
 
 ## Overview
 
-NYX is an AI-assisted operational intelligence platform designed to reduce alert fatigue, improve decision consistency, and accelerate cybersecurity operations through explainable consensus reasoning.
+Modern enterprise environments generate massive volumes of operational telemetry across SIEM, EDR, vulnerability management, identity, monitoring, cloud, and infrastructure platforms.
 
-Rather than generating additional alerts, NYX focuses on transforming operational telemetry into prioritized, auditable decision workflows.
+Security operations teams are increasingly overwhelmed by fragmented data, disconnected workflows, alert fatigue, and inconsistent decision-making.
 
----
+NYX was designed to address a growing operational gap:
 
-## The Problem
+> Organizations do not simply have an alert problem.
+>
+> They have a decision problem.
 
-Modern security operations centers face:
-
-- High alert volume
-- Analyst fatigue
-- Inconsistent triage decisions
-- Fragmented operational tooling
-- Limited decision auditability
-- Increasing operational complexity
-
-Organizations today increasingly face a decision scalability problem rather than a detection problem.
+NYX is a consensus-driven cybersecurity decision intelligence platform designed to transform high-volume operational telemetry into defensible, explainable, and auditable decisions.
 
 ---
 
-## The Solution
+## Core Philosophy
 
-NYX leverages the proprietary TRINITY consensus framework:
+NYX is not designed to replace analysts.
 
-- Analyst → Interprets telemetry and context
-- Judge → Evaluates operational response
-- Auditor → Challenges assumptions and validates logic
-- Consensus Engine → Produces defensible decisions
+NYX is designed to:
 
-This architecture is designed to preserve explainability, auditability, and human oversight while improving operational scalability.
+* Reduce operational triage burden
+* Improve decision consistency
+* Accelerate response prioritization
+* Preserve human oversight where necessary
+* Create explainable operational outcomes
+* Support scalable enterprise operations
 
----
-
-## Platform Architecture
-
-![ODS Platform Architecture](images/ods-platform-architecture.png)
-
-
-## Prototype Validation
-
-Operational prototype testing was conducted using real enterprise alert telemetry generated from production monitoring infrastructure.
-
-Prototype findings included:
-
-- 2,000+ enterprise alerts processed
-- ~30 days of operational telemetry analyzed
-- Estimated reduction of 200+ analyst review hours
-- Human review escalation preserved
-- Structured audit logging generated
-- Local/on-prem processing architecture validated
+The platform focuses on operational augmentation through structured AI-assisted decision workflows.
 
 ---
 
-## Current Focus
+# TRINITY Framework
 
-- Pilot validation
-- Enterprise integrations
-- Human-in-the-loop workflows
-- Explainable AI governance
-- Air-gapped deployment models
-- Operational scalability
+NYX is powered by the TRINITY consensus framework.
+
+TRINITY is a structured multi-role reasoning model composed of:
+
+| Role    | Responsibility                                 |
+| ------- | ---------------------------------------------- |
+| Analyst | Interprets operational context and telemetry   |
+| Judge   | Evaluates potential actions and prioritization |
+| Auditor | Challenges assumptions and validates reasoning |
+
+The outputs from each role are processed through a consensus workflow that produces a structured operational decision.
+
+This approach is intended to improve:
+
+* Explainability
+* Auditability
+* Decision confidence
+* Human trust
+* Operational consistency
 
 ---
 
-## Platform Architecture
+# Key Concepts
 
-TRINITY Decision Framework:
+## Time to Decision (TTD)
 
-Analyst → Judge → Auditor → Consensus
+NYX introduces the concept of Time to Decision (TTD).
 
-Additional ODS platform initiatives include:
+TTD measures the time required to move from detection to a defensible operational decision.
 
-- VEIL — Narrative Intelligence Platform
-- LYCEUM — Educational Operational Intelligence
+Rather than focusing exclusively on detection speed, NYX emphasizes:
+
+* Contextual understanding
+* Decision quality
+* Auditability
+* Operational scalability
+
+TTD is intended to provide visibility into:
+
+* Analyst workload reduction
+* Workflow efficiency
+* Operational bottlenecks
+* AI reasoning latency
+* Human review dependencies
 
 ---
 
-## Status
+## Human-in-the-Loop Operations
 
-Current Stage:
-Prototype / Pilot Validation
+NYX is designed around controlled operational oversight.
+
+The platform supports:
+
+* Human review queues
+* Escalation workflows
+* Manual approval pipelines
+* Explainable reasoning outputs
+* Audit-ready decision records
+
+High-risk or low-confidence outcomes can be routed to analysts for review before any action is taken.
+
+---
+
+# Example Enterprise Workflow
+
+```text
+Security Tools / Telemetry Sources
+        ↓
+Normalization & Enrichment
+        ↓
+TRINITY Consensus Workflow
+(Analyst → Judge → Auditor)
+        ↓
+NYX Decision Engine
+        ↓
+Human Review / Automation / Escalation
+        ↓
+Audit Logging & Reporting
+```
+
+---
+
+# Intended Integration Domains
+
+NYX is being designed to operate alongside existing enterprise platforms, including but not limited to:
+
+* SIEM
+* EDR/XDR
+* Vulnerability Management
+* Monitoring & Observability
+* Identity & Access Management
+* SOAR
+* ITSM / Ticketing Platforms
+* Threat Intelligence
+* Cloud Security Platforms
+
+Potential integration targets include:
+
+* ServiceNow
+* Splunk
+* CrowdStrike
+* SentinelOne
+* Microsoft Defender
+* Qualys
+* Tenable
+* Wiz
+* LogicMonitor
+* SolarWinds
+* Jira
+
+---
+
+# Deployment Philosophy
+
+NYX is being developed with enterprise operational trust and security requirements in mind.
+
+Design goals include:
+
+* On-prem deployment support
+* Air-gapped operational capability
+* Local AI model support
+* Limited external dependency requirements
+* Explainable decision workflows
+* Enterprise auditability
+
+The platform is intended to support environments with strict compliance, security, and operational governance requirements.
+
+---
+
+# Prototype Validation
+
+Initial prototype validation efforts have included:
+
+* Multi-thousand alert batch processing
+* Simulated enterprise operational telemetry
+* Consensus-driven decision workflows
+* Human review escalation logic
+* Dashboard visualization
+* Audit logging pipelines
+
+Validation efforts are currently focused on pilot-readiness development and operational workflow refinement.
+
+---
+
+# Current Project Status
+
+NYX is currently in active prototype and architecture development.
+
+Current development focus areas include:
+
+* Consensus decision workflows
+* Operational dashboards
+* Human review pipelines
+* Integration architecture
+* AI reasoning orchestration
+* Audit logging
+* Workflow scalability
+
+---
+
+# Long-Term Vision
+
+The long-term vision for NYX is to help organizations:
+
+* Reduce operational overload
+* Improve response consistency
+* Increase analyst efficiency
+* Build explainable operational AI workflows
+* Establish defensible AI-assisted decision systems
+
+NYX represents part of a broader operational intelligence ecosystem being developed under Obsidian Defense Systems.
+
+---
+
+# Repository Structure
+
+```text
+/docs              -> Architecture and technical documentation
+/examples          -> Sample alerts and audit outputs
+/images            -> Branding and architecture diagrams
+/demo              -> Demonstration workflows and screenshots
+```
+
+---
+
+# Disclaimer
+
+This repository currently contains high-level architecture, concepts, and prototype-related materials.
+
+Some implementation details, consensus logic, and operational methodologies are intentionally omitted from the public repository.
+
+---
+
+# Obsidian Defense Systems
+
+Obsidian Defense Systems (ODS) is focused on building explainable operational AI platforms designed to reduce cognitive overload and improve decision quality in complex environments.
+
+Current ODS initiatives include:
+
+* NYX — Cybersecurity Decision Intelligence
+* TRINITY — Consensus Reasoning Framework
+* LYCEUM — Educational Operational Intelligence
+* VEIL — Narrative Intelligence Platform
 
 ---
 
 ## Contact
 
 Kyle Jackson
-
 Founder | Obsidian Defense Systems
-
-Email: kylejackson@obsidiands.com  
-LinkedIn: https://www.linkedin.com/in/kyle-jackson-574a64160
- 
-
+Email: kylejackson@obsidiands.com
