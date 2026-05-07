@@ -266,5 +266,6 @@ Current ODS initiatives include:
 ## Contact
 
 Kyle Jackson
+
 Founder | Obsidian Defense Systems
 Email: kylejackson@obsidiands.com
