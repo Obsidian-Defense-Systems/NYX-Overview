@@ -20,6 +20,10 @@ NYX was designed to address a growing operational gap:
 
 NYX is a consensus-driven cybersecurity decision intelligence platform designed to transform high-volume operational telemetry into defensible, explainable, and auditable decisions.
 
+## Documentation
+
+- [NYX Public Overview](docs/NYX_Enterprise_Overview_v1.pdf)
+
 ---
 
 ## Core Philosophy
